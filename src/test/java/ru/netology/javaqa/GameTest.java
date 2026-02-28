@@ -69,5 +69,4 @@ public class GameTest {
         Assertions.assertEquals(0, game.round(player1.getName(), player4.getName()));
     }
 
-
 }
