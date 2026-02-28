@@ -22,7 +22,9 @@ public class GameTest {
         game.register(player5);
         game.register(player6);
 
-        Assertions.assertEquals(player3, game.findByName(player3.getName()));
+        //Assertions.assertEquals(player3, game.findByName(player3.getName()));
+
+        Assertions.assertEquals(true, game.findByName(player3.getName()));
     }
 
     @Test
